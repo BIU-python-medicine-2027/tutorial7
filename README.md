@@ -1,6 +1,6 @@
 # Tutorial 7 — Plotting data
 
-Practice for lecture 7: explore a dataset and create histograms, scatter plots, and correlation figures with Matplotlib.
+Practice for lecture 7: function plots, histograms/subplots, then DataFrame exploration (basis for **PS7**).
 
 **Colab from GitHub:** use **Ctrl+click** / **⌘+click** (or middle-click) so Colab opens in a new tab.
 
@@ -8,21 +8,20 @@ Practice for lecture 7: explore a dataset and create histograms, scatter plots, 
 - <a href="https://colab.research.google.com/github/BIU-python-medicine-2027/tutorial7/blob/main/plot_data_starter.ipynb" target="_blank" rel="noopener noreferrer"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Plot data starter"/></a> `plot_data_starter.ipynb`
 - <a href="https://colab.research.google.com/github/BIU-python-medicine-2027/tutorial7/blob/main/plot_data.ipynb" target="_blank" rel="noopener noreferrer"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Plot data"/></a> `plot_data.ipynb`
 
-## Files
+## Order in class
 
-| File | Role |
-| --- | --- |
-| `plot_functions.ipynb` | Warm-up: plotting helpers |
-| `plot_data_starter.ipynb` | Guided exploration starter |
-| `plot_data.ipynb` | Full data-plotting notebook |
+1. `plot_functions.ipynb` — `np.linspace`, `math.sin`, `plt.plot` + marker; \(\sin x/x\) and \(x\sin(1/x)\).
+2. `plot_data_starter.ipynb` — `zip`, histogram + `bins`, `plt.title` vs `ax.set_title`, scatter.
+3. `plot_data.ipynb` — DataFrame (`data.frame`, `columns`, `sample`, column extract); same flow as **PS7**.
+4. Optional: AI to beautify a figure; upload code + image with the homework.
 
-## How to work
+## New ideas to introduce briefly
 
-1. Start with `plot_functions.ipynb`.
-2. Continue with `plot_data_starter.ipynb`, then `plot_data.ipynb`.
+`zip` · `np.linspace` · `math.sin` · `data` / `data.frame` · `df.columns` · `df[f]` · `sample`
 
-No commit and no submission are required for this tutorial.
+## Colab tips
 
-## Optional: keep your changes in Google Drive
+- Copy selection → Ctrl+V (⌘+V on Mac).
+- After `savefig`, download from the Files panel; upload to the PS7 GitHub repo.
 
-In Colab: **File → Save a copy in Drive**.
+No commit is required for the tutorial itself (PS7 is the submission).
